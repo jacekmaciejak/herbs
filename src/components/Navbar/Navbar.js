@@ -26,46 +26,46 @@ function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <div className='navbar-container'>
-                    <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Jacek Maciejak
-            <i className="fas fa-tools"></i>
+                <div className='navbar__container'>
+                    <NavLink to='/' className='navbar__container__logo' onClick={closeMobileMenu}>
+                        Zioła
+            <i className="fab fa-pagelines"></i>
                     </NavLink>
-                    <div className='menu-icon' onClick={handleClick}>
+                    <div className='menu__icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <NavLink to='/o-nas' className='nav-links' onClick={closeMobileMenu}
-                                activeClassName='link-active'>
+                    <ul className={click ? 'navbar__menu active' : 'navbar__menu'}>
+                        <li className='navbar__item'>
+                            <NavLink to='/o-nas' className='navbar__links' onClick={closeMobileMenu}
+                                activeClassName='link__active'>
                                 O nas
               </NavLink>
                         </li>
-                        <li className='nav-item'>
+                        <li className='navbar__item'>
                             <NavLink
                                 to='/uslugi'
-                                className='nav-links'
+                                className='navbar__links'
                                 onClick={closeMobileMenu}
-                                activeClassName='link-active'
+                                activeClassName='link__active'
                             >
                                 Usługi
               </NavLink>
                         </li>
-                        <li className='nav-item'>
+                        <li className='navbar__item'>
                             <NavLink
                                 to='/nasze-realizacje'
-                                className='nav-links'
+                                className='navbar__links'
                                 onClick={closeMobileMenu}
-                                activeClassName='link-active'
+                                activeClassName='link__active'
                             >
                                 Nasz realizacje
               </NavLink>
                         </li>
-                        <li className='nav-item'>                            <NavLink
+                        <li className='navbar__item'>                            <NavLink
                             to='/kontakt'
-                            className='nav-links'
+                            className='navbar__links'
                             onClick={closeMobileMenu}
-                            activeClassName='link-active'
+                            activeClassName='link__active'
                         >
                             Kontakt
               </NavLink></li>
