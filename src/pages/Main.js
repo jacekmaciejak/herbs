@@ -5,7 +5,7 @@ import './Main.css'
 
 function Main() {
     return (
-        <div>
+        <div className='main__continer'>
             <MainArticleTitlesWrapper />
         </div>
     )

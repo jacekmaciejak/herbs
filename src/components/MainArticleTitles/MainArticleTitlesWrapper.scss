@@ -1,0 +1,8 @@
+.mainArticleTitles__wrapper {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

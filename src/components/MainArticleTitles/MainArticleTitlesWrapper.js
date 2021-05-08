@@ -1,5 +1,5 @@
 import React from 'react'
-import './MainArticleTitlesWrapper.css'
+import './MainArticleTitlesWrapper.scss'
 import { mainArticles } from '../../data/mainArticles'
 import MainArticleTitlesItem from './MainArticleTitlesItem/MainArticleTitlesItem'
 
