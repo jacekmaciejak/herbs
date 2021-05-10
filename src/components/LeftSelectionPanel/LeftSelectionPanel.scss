@@ -1,0 +1,128 @@
+@import '../../App.scss';
+
+
+.leftSelectionPanel {
+    width: 20%;
+    background-color: $gold-colour;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    letter-spacing: 2px;
+
+    &__container {
+        padding-left: 30px;
+
+        .menu__icon {
+            @include respond(tab-port) {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(-80%, 16%);
+                font-size: 3rem;
+                cursor: pointer;
+            }
+
+            .fa-times {
+                @include respond(tab-port) {
+                    color: $white-colour;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .leftSelectionPanel__menu {
+            list-style: none;
+            text-align: center;
+
+            @include respond(tab-port) {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+                top: 80px;
+                left: -100%;
+                opacity: 1;
+                transition: all 0.5s ease;
+                position: fixed;
+            }
+
+            &.active {
+                @include respond(tab-port) {
+                    background: #242222;
+                    left: 0;
+                    opacity: 1;
+                    transition: all 0.5s ease;
+                    z-index: 1;
+                }
+
+            }
+
+            .leftSelectionPanel__item {
+                height: auto;
+                padding: 0.1rem 1rem;
+
+                @include respond(tab-port) {}
+
+                .leftSelectionPanel__links {
+                    color: $white-colour;
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    padding-bottom: 5px;
+                    height: 100%;
+                    border-bottom: 2px solid transparent;
+
+                    @include respond(tab-port) {
+                        text-align: center;
+                        padding: 2rem;
+                        width: 70%;
+                        display: table;
+                        margin: 0 auto;
+                        transition: all 0.8s ease-out;
+                    }
+
+                    &:hover {
+                        border-bottom: 2px solid $green-flashy-colour;
+                        transition: all 0.3s ease-out;
+
+                        @include respond(tab-port) {
+                            background-color: $white-colour;
+                            color: $text-colour;
+                            transition: all 0.8s ease-out;
+                        }
+
+                    }
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+
+                .link__active {
+                    color: $green-flashy-colour;
+                }
+            }
+        }
+    }
+}
+
+.fa-bars {
+    color: $white-colour;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu__icon {
+    display: none;
+}
+
+.leftSelectionPanel__container-displayNone {
+    visibility: hidden;
+    display: none;
+}

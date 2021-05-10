@@ -16,7 +16,7 @@ export const mainArticles = [
     {
         image: ziola_2,
         title: 'Prace ziemne',
-        description: 'Wykonujemy wszelkie prace ziemne: drenaże, odwodnienia, równanie terenu'
+        description: 'Wykonujemy wszelkie prace ziemne:wodnienia, równanie terenu'
     },
     {
         image: ziola_3,
@@ -29,38 +29,38 @@ export const mainArticles = [
         description: 'Zaprojektujemy i wykonamy automatyczny system podlewania'
     },
     {
-        image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
+        image: ziola_5,
+        title: 'Prace dodatdfowe',
+        description: 'Wykonujemy prace dodatkowe,  mycie k usuwanie zabrudzeń z kostki'
     },
     {
         image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
-    },
-
-    {
-        image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
+        title: 'Prace dosddatkowe',
+        description: 'Wykonujemy prace dodatkowe, kkostki, usuwanie zabrudzeń z kostki'
     },
 
     {
         image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
+        title: 'Prace dodatrtgkowe',
+        description: 'Wykonujemy prace dodatkowe,kostki, usuwanie zabrudzeń z kostki'
     },
 
     {
         image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
+        title: 'Prace dodatkrewe',
+        description: 'Wykonujemy prace dodatkowe, które ustalamy i  zabrudzeń z kostki'
     },
 
     {
         image: ziola_6,
-        title: 'Prace dodatkowe',
-        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: mycie kostki, usuwanie zabrudzeń z kostki'
+        title: 'Prace doda23tkowe',
+        description: 'Wykonujemy prace dodatkowe, które ustalamusuwanie zabrudzeń z kostki'
+    },
+
+    {
+        image: ziola_6,
+        title: 'Prace dodatcvkowe',
+        description: 'Wykonujemy prace dodatkowe, które ustalamy indywidulanie np.: '
     },
 
 

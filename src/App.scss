@@ -1,12 +1,3 @@
-$white-colour: #fff;
-$black-colour: #000;
-$gold-colour: #BB9A5E;
-$grey-colour: #2b2a2a;
-$green-flashy-colour: #12C93D;
-$green-bland-colour: #BAFFC5;
-$text-colour: #565656;
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +6,19 @@ $text-colour: #565656;
   letter-spacing: 1px;
 
 }
+
+$white-colour: #fff;
+$black-colour: #000;
+$gold-colour: #BB9A5E;
+$grey-colour: #2b2a2a;
+$green-flashy-colour: #12C93D;
+$green-bland-colour: #BAFFC5;
+$text-colour: #565656;
+
+.app__container {
+  display: flex;
+}
+
 /*MEDIA QUERY MANAGER*/
 
 /*

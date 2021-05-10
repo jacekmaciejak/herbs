@@ -21,5 +21,16 @@ function MainArticleTitlesItem({ path, image, title, description }) {
         </div>
     )
 }
+MainArticleTitlesItem.propTypes = {
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
+}
+
+MainArticleTitlesItem.defaultProps = {
+    image: 'There should be an image',
+    title: 'There should be a title',
+    description: 'There should be description'
+}
 
 export default MainArticleTitlesItem

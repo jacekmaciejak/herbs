@@ -1,4 +1,5 @@
 import React from 'react'
+import LeftSelectionPanel from '../components/LeftSelectionPanel/LeftSelectionPanel'
 import MainArticleTitlesWrapper from '../components/MainArticleTitles/MainArticleTitlesWrapper'
 import './Main.css'
 
